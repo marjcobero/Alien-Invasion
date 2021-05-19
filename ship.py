@@ -2,7 +2,6 @@ import pygame
 
 #A class to manage the ship
 class Ship:
-    
     def __init__(self, ai_game):
         #Initialize the ship and set its starting position
         self.screen = ai_game.screen
@@ -10,7 +9,7 @@ class Ship:
         self.screen_rect = ai_game.screen.get_rect()
         
         #Load the ship image and get its rect
-        self.image = pygame.image.load('images/ship.bmp')
+        self.image = pygame.image.load('images/ship.png')
         self.rect = self.image.get_rect()
         
         #Start each new ship at the bottom center of the screen
@@ -36,3 +35,8 @@ class Ship:
     #Draw the ship its current location
     def blitme(self):
         self.screen.blit(self.image, self.rect)
+        
+    #Center the ship on the screen
+    def center_ship(self):
+        self.rect.midbottom = self.screen_rect.midbottom
+        self.x = float(self.rect.x)
