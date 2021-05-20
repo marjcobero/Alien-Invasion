@@ -8,4 +8,4 @@ Alien Invasion is a game inspired from one of the classic games "Space Invaders"
 
 # Demo 
 Screen Shot 2021-05-19 at 11.28.32 PM.png![image](https://user-images.githubusercontent.com/69501884/118930110-2eb6d180-b8fa-11eb-8659-77a8a3c5d4d4.png)
-alien-invasion.gif![image](https://user-images.githubusercontent.com/69501884/118930138-39716680-b8fa-11eb-9119-51fd948fa16b.png)
+![Alt text](file:///Users/marjcobero/Desktop/alien-invasion.gif)
