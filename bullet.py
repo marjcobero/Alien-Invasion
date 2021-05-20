@@ -1,5 +1,7 @@
-import pygame
 from pygame.sprite import Sprite
+
+import pygame
+
 
 
 #A class to manage bullets fired from the ship
